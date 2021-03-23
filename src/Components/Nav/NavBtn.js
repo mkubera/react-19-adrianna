@@ -1,7 +1,11 @@
+import "./NavBtn.css";
+
 function NavBtn(props) {
   return (
     <div>
-      <p style={{ color: props.colour }}>{props.name}</p>
+      <p className="navBtn" style={{ color: props.colour }}>
+        {props.name}
+      </p>
     </div>
   );
 }
